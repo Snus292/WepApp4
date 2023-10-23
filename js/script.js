@@ -7,7 +7,7 @@ import forms from './modules/forms';
 import slider from './modules/slider';
 import {openModal} from './modules/modal';
 
-require("babel-core/register");
+require("@babel/register");
 require("babel-polyfill");
 
 window.addEventListener('DOMContentLoaded', function() {
