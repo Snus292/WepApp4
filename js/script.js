@@ -7,6 +7,9 @@ import forms from './modules/forms';
 import slider from './modules/slider';
 import {openModal} from './modules/modal';
 
+import "../js/bundle/index.html"
+import "../js/bundle/index.css"
+
 require("@babel/register");
 require("babel-polyfill");
 
